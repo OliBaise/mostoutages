@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Section Styling */
+section {
+  background: #fff;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+/* Table Container (for scrolling) */
+.table-container {
+  overflow-x: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Small Text for Notes */
+small {
+  display: block;
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Iframes (Datawrapper) */
+iframe {
+  width: 100%;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+/* Spreadsheet Link and Other Links */
+p a {
+  word-break: break-word;
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: none;
+}
